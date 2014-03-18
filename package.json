@@ -19,9 +19,9 @@
   "license": "MIT",
   "dependencies": {
     "logfmt": "^0.23.0",
-    "routes": "0.9.0"
+    "routes": ">=0.9.0"
   },
   "engines": {
-    "node": "0.10.x"
+    "node": ">=0.10.x"
   }
 }
