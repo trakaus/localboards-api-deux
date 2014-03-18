@@ -1,0 +1,6 @@
+{
+	"name": "routes",
+	"version": "0.9.0",
+	"description": "route tables for the localboards api.",
+	"main": "./index.js"
+}

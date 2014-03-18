@@ -26,7 +26,7 @@ SOFTWARE.
 
 var restify = require("restify");
 var logfmt = require("logfmt");
-var routes = require('routes');
+var routes = require('./lib/routes');
 
 var server = restify.createServer({
   name: 'api.localboards.org'
