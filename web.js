@@ -98,7 +98,7 @@ for(var ndx=0;ndx < routes.paths.length;ndx++) {
 	}
 }
 
-server.listen(routes.port, function() {
+server.listen(process.env.PORT || routes.port, function() {
 	console.log('%s listening at %s', server.name, server.url);
 })
 
