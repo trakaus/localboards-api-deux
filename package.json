@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/lazarus/localboards-api-on-nodejs"
+    "url": "https://github.org/trakaus/localboards-api-deux"
   },
   "keywords": [
     "localboards",
@@ -18,7 +18,8 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "logfmt": "^0.23.0"
+    "logfmt": "^0.23.0",
+    "routes": "0.9.0"
   },
   "engines": {
     "node": "0.10.x"
