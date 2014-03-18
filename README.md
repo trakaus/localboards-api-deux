@@ -34,4 +34,4 @@ SOFTWARE.
 
 ## Bugs
 
-See <https://github.com/trakaus/localboards-api-deux/issues>.
+See <https://github.com/trakaus/localboards-api-duex/issues>.
