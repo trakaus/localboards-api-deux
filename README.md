@@ -1,4 +1,4 @@
-# localboards-api-duex
+# localboards-api-deux
 ====================
 
 Exploring an alternative approach to building the local boards api utilizing NodeJS. The first approach was done in Ruby on Rails and can be found [here](https://github.com/noahkoch/api-localboards-org).
