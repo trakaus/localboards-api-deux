@@ -26,7 +26,7 @@ SOFTWARE.
 
 var restify = require("restify");
 var logfmt = require("logfmt");
-var routes = require('./lib/routes');
+var lbns = require('./lib/routes');
 
 var server = restify.createServer({
   name: 'api.localboards.org'
@@ -61,8 +61,8 @@ server.use(restify.bodyParser({ mapParams: false })); // mapped in req.body as a
 
 //
 // setup all of the routes that this api will listen for.
-for(var ndx=0;ndx < routes.paths.length;ndx++) {
-	var resource = routes.paths[ndx];
+for(var ndx=0;ndx < lbns.routes.paths.length;ndx++) {
+	var resource = lbns.routes.paths[ndx];
 	console.log( 'resource: ' + resource.name );
 	for(var index=0;index<resource.resources.length;index++) {
 		var defn = resource.resources[index];
@@ -98,7 +98,7 @@ for(var ndx=0;ndx < routes.paths.length;ndx++) {
 	}
 }
 
-server.listen(process.env.PORT || routes.port, function() {
+server.listen(process.env.PORT || lbns.routes.port, function() {
 	console.log('%s listening at %s', server.name, server.url);
 })
 
