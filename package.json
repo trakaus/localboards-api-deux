@@ -28,6 +28,7 @@
 		"type": "git",
 		"url": "git://github.com/trakaus/localboards-api-deux.git"
 	},
+	"main": "node web.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
@@ -35,6 +36,6 @@
 		"url": "http://github.com/trakaus/localboards-api-deux/issues"
 	},
 	"engines": {
-		"node": ">=6.11.x"
+		"node": ">=6.10"
 	}
 }
