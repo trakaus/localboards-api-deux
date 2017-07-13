@@ -51,13 +51,13 @@ server.pre(function(request, response, next) {
 
 // tell restify that you want your query params available
 // from the req.query object.
-server.use(restify.queryParser());
+// server.use(restify.queryParser());
 
 // tell restify how to handle posted objects.
 // server.use(restify.bodyParser()); // uncomment to map each variable to req.params.
 // -- be sure to comment out the following server.use() call if you use the above option! --
 // to have the object returned within a single object req.body,
-server.use(restify.bodyParser({ mapParams: false })); // mapped in req.body as a single object.
+// server.use(restify.bodyParser({ mapParams: false })); // mapped in req.body as a single object.
 
 //
 // setup all of the routes that this api will listen for.
