@@ -35,6 +35,6 @@
 		"url": "http://github.com/trakaus/localboards-api-deux/issues"
 	},
 	"engines": {
-		"node": ">=0.10.x"
+		"node": ">=6.11.x"
 	}
 }
