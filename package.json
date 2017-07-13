@@ -1,7 +1,7 @@
 {
   "name": "Localboards-API",
   "main": "node web.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "description": "Testing the interface with NodeJS on Heroku.",
   "homepage": "http://github.com/trakaus/localboards-api-deux",
