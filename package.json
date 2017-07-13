@@ -1,41 +1,42 @@
 {
-	"name": "Localboards-API",
-	"main": "web.js",
-	"version": "0.0.1",
-	"license": "MIT",
-	"description": "Testing the interface with NodeJS on Heroku.",
-	"homepage": "http://github.com/trakaus/localboards-api-deux",
-	"keywords": [
-		"localboards",
-		"api",
-		"restful"
-	],
-	"author": {
-		"name": "Ryan Walker",
-		"email": "w.ryan.walker at gmail dot com"
-	},
-	"contributors": [
-		{"name": "** be the first **"}
-	],
-	"dependencies": {
-		"logfmt": "^0.23.0",
-		"okay":"0.3.0",
-		"when":"2.8.0",
-		"restify":"2.6.3",
-		"pg-query":">=0.7.0"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/trakaus/localboards-api-deux.git"
-	},
-	"main": "node web.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"bugs": {
-		"url": "http://github.com/trakaus/localboards-api-deux/issues"
-	},
-	"engines": {
-		"node": ">=6.10"
-	}
+  "name": "Localboards-API",
+  "main": "node web.js",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "Testing the interface with NodeJS on Heroku.",
+  "homepage": "http://github.com/trakaus/localboards-api-deux",
+  "keywords": [
+    "localboards",
+    "api",
+    "restful"
+  ],
+  "author": {
+    "name": "Ryan Walker",
+    "email": "w.ryan.walker at gmail dot com"
+  },
+  "contributors": [
+    {
+      "name": "** be the first **"
+    }
+  ],
+  "dependencies": {
+    "logfmt": "^1.2.0",
+    "okay": "^1.0.0",
+    "pg-query": ">=0.7.0",
+    "restify": "^5.0.0",
+    "when": "^3.7.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/trakaus/localboards-api-deux.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bugs": {
+    "url": "http://github.com/trakaus/localboards-api-deux/issues"
+  },
+  "engines": {
+    "node": ">=6.10"
+  }
 }

@@ -24,11 +24,11 @@ SOFTWARE.
 // web.js
 // @author: Ryan Walker [w.ryan.walker@gmail.com]
 
-var restify = require("restify");
-var logfmt = require("logfmt");
-var lbns = require('./lib/routes');
+const restify = require("restify");
+const logfmt = require("logfmt");
+const lbns = require('./lib/routes');
 
-var server = restify.createServer({
+const server = restify.createServer({
   name: 'api.localboards.org'
 });
 
